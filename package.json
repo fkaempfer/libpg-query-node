@@ -1,5 +1,5 @@
 {
-  "name": "libpg-query",
+  "name": "@fkaempfer/libpg-query",
   "version": "16.0.0",
   "description": "The real PostgreSQL query parser",
   "homepage": "https://github.com/fkaempfer/libpg-query-node",
