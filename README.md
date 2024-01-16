@@ -4,6 +4,12 @@ The real PostgreSQL parser, exposed for nodejs.
 
 Primarily used for the node.js parser and deparser [pgsql-parser](https://github.com/pyramation/pgsql-parser)
 
+
+## Fork
+
+This is a fork I created while waiting for v16 to be released.
+
+
 ## Building a binary distribution
 
 - Install requirements (`npm i`)
