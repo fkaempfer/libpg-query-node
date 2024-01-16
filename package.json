@@ -1,8 +1,8 @@
 {
   "name": "libpg-query",
-  "version": "15.0.2",
+  "version": "16.0.0",
   "description": "The real PostgreSQL query parser",
-  "homepage": "https://github.com/pyramation/libpg-query-node",
+  "homepage": "https://github.com/fkaempfer/libpg-query-node",
   "main": "index.js",
   "typings": "index.d.ts",
   "publishConfig": {
@@ -20,7 +20,7 @@
   "license": "LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pyramation/libpg-query-node.git"
+    "url": "git://github.com/fkaempfer/libpg-query-node.git"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -31,6 +31,9 @@
     "@mapbox/node-pre-gyp": "^1.0.8",
     "node-addon-api": "^1.6.3",
     "node-gyp": "^8.0.0"
+  },
+  "overrides": {
+    "libpg-query": "$libpg-query"
   },
   "keywords": [
     "sql",
