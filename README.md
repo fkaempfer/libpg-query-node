@@ -9,6 +9,10 @@ Primarily used for the node.js parser and deparser [pgsql-parser](https://github
 
 This is a fork I created while waiting for v16 to be released.
 
+Install with
+```
+npm install --save-dev @fkaempfer/libpg-query
+```
 
 ## Building a binary distribution
 
